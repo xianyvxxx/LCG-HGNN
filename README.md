@@ -1,6 +1,6 @@
 # LCG-HGNN
 
- **Inferring signaling pathway abnormalities directly from histopathological whole-slide images—without genomic sequencing.**  
+ **Inferring signaling pathway abnormalities from histopathological images via logic-constrained gene-pathway heterogeneous knowledge graph**  
 
 Primary Data Sources
 
