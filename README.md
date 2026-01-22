@@ -65,7 +65,7 @@ To ensure reproducibility, please follow these steps to set up the environment a
    pip install pandas numpy scikit-learn pillow
    ```
 
-5. **Install KENN (Crucial Step):**
+5. **Install KENN:**
    We utilize **KENN-PyTorch** for logic constraint layers. Please install it directly from the official source:
 
    ```bash
@@ -133,7 +133,7 @@ We provide configuration with default hyperparameters that reproduce the main ex
 - `weight_decay`: 1e-5
 - `lambda_reg`: 0.03 (For dynamic edge weighting regularization)
 
-## Usage Pipeline (Reproduction Steps)
+## Usage Pipeline
 
 The framework operates in a sequential pipeline. Follow these steps to reproduce the main experimental results.
 
