@@ -1,0 +1,24 @@
+# Core Deep Learning Framework
+# Note: Ensure the torch version matches your CUDA version (e.g., +cu113)
+torch>=1.12.1
+torchvision>=0.13.1
+
+# Graph Neural Network Library
+torch-geometric>=2.3.0
+
+# PyG Optional Dependencies (Required for GIN/GCN/SAGE layers)
+# These often require specific binary installations matching your torch version
+torch-scatter
+torch-sparse
+torch-cluster
+torch-spline-conv
+
+# Data Processing & Analysis
+numpy
+pandas
+scikit-learn
+orjson  # High-performance JSON library used in utils.py
+
+# Image Processing & Visualization
+Pillow
+matplotlib
