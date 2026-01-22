@@ -14,7 +14,7 @@ This codebase provides a complete, self-contained pipeline for data preprocessin
 - [Installation](#-installation)
 - [Dataset Preparation](#-dataset-preparation)
 - [Hyperparameters & Configuration](#-hyperparameters--configuration)
-- [Usage Pipeline (Reproduction Steps)](#-usage-pipeline-reproduction-steps)
+- [Usage Pipeline](#-usage-pipeline-reproduction-steps)
   - [Step 1: Graph Learning & Dynamic Weighting](#step-1-graph-learning--dynamic-weighting)
   - [Step 2: Node Sorting & Selection](#step-2-node-sorting--selection)
   - [Step 3: Feature Embedding](#step-3-feature-embedding)
@@ -29,7 +29,7 @@ This codebase provides a complete, self-contained pipeline for data preprocessin
 * **Hardware:** NVIDIA GPU (Tested on RTX A6000) with CUDA 11.x+
 * **Dependencies:**
   * `torch >= 1.12`
-  * `torch-geometric` (Crucial for GIN/GCN layers)
+  * `torch-geometric`
   * `torchvision`
   * `scikit-learn`, `pandas`, `numpy`, `pillow`
   * `KENN-PyTorch` (See installation below)
@@ -52,7 +52,7 @@ To ensure reproducibility, please follow these steps to set up the environment a
    conda activate lcg_hgnn
    ```
 
-3. **Install PyTorch (adjust for your CUDA version):**
+3. **Install PyTorch:**
 
    ```bash
    pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 --extra-index-url [https://download.pytorch.org/whl/cu113](https://download.pytorch.org/whl/cu113)
