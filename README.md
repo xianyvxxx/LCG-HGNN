@@ -5,6 +5,7 @@
 ![Status](https://img.shields.io/badge/Status-Published-success) ![PyTorch](https://img.shields.io/badge/PyTorch-%3E%3D1.12-red) ![License](https://img.shields.io/badge/License-MIT-blue)
 
 This repository contains the official implementation of **LCG-HGNN**, a framework designed to infer signaling pathway alterations (e.g., PI3K-Akt) directly from Whole-Slide Images (WSIs). By integrating a **Gene-Pathway Heterogeneous Graph** and the **KePathGraph** framework, this model enables collaborative recognition of gene groups and incorporates biological priors via logical clauses to enhance clinical interpretability.
+![LCG-HGNN Framework Workflow](https://raw.githubusercontent.com/xianyvxxx/LCG-HGNN/main/figure/Workflow%20of%20the%20Proposed%20LCG-HGNN%20Framework.png)
 
 This codebase provides a complete, self-contained pipeline for data preprocessing, model training, and evaluation, facilitating the reproduction of the experimental results reported in our paper.
 
